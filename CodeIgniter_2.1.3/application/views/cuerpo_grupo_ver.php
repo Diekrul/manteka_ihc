@@ -93,18 +93,19 @@ function ordenarFiltro(){
 <div class="row-fluid">
 <div class="span10">
 <fieldset>
-	<legend>Ver Sala</legend>
+	<legend>Ver Grupo de Contactos</legend>
 	<div class="row-fluid">
 		<div class="span4">
 			<div class="row-fluid">
 				<div class="span6">
-					1.-Listado sala
+					1.-Listado de Grupo de Contactos
 				</div>
 			</div>
 			<div class="row-fluid">
 				<div>
 					<div class="row-fluid">	
-						<input id="filtroLista"  onkeyup="ordenarFiltro()" type="text" placeholder="Filtrar por nombre" style="width:90%">
+						<input id="filtroLista"  onkeyup="ordenarFiltro()" type="text" placeholder="Filtrar por nombre" style="width:78.5%" style="margin-top:10px">
+						<button class="btn" style="margin-top:-10px" onClick="cambioTipoFiltro(undefined)" title="Iniciar una búsqueda considerando todos los atributos" type="button"><i class="icon-search"></i></button>
 					</div>	
 				</div>
 			</div>

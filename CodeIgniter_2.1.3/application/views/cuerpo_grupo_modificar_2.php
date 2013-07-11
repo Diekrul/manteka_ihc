@@ -880,7 +880,7 @@ function revisarRut(rut){
 			<h3>Aviso</h3>
 		</div>
 		<div class="modal-body">
-			<p>Se modificará el grupo de contactos, esta seguro?.</p>
+			<p>¿Se modificará el grupo de contactos, esta seguro?.</p>
 		</div>
 		<div class="modal-footer">
 			<button onclick="modificar()" class="btn" type="button" data-dismiss="modal">Confirmar</button>
