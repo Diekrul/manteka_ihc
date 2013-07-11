@@ -161,9 +161,10 @@
 				<!-- Este es el botón que está entremedio de los dos listados -->
 				<div class="span2 text-center">
 					<br /><br /><br />
-					<div class="btn" type="button" onclick="pasarContactos()">Agregar</div>
+					<div class="btn" type="button"  onclick="pasarContactos()">
+						<i>&rarr;</i>&nbsp;Agregar</div>
 					<br /><br /><br />
-					<div class="btn" type="button" onclick="quitarContactos()">Quitar</div>
+					<div class="btn" type="button" onclick="quitarContactos()"><i>&larr;</i>&nbsp;Quitar</div>
 				</div>
 
 				<!-- Este es el listado de destinatarios seleccionados para el envío -->
@@ -175,7 +176,7 @@
 									<input type="checkbox" id="seleccionarTodosDelFiltro" onClick="seleccionar_segundo_check(this)" checked="true">
 
 								</th>
-								<th >
+								<th style=" width:100%" >
 									Destinatarios seleccionados
 
 								</th>
@@ -194,7 +195,7 @@
 			<div class="row-fluid">
 				<ul class="pager pull-right">
 					<li>
-						<button class ="btn" type="submit" title="Guardar Grupo de Contactos." >Guardar Grupo</button>
+						<button class ="btn" type="submit" title="Guardar Grupo de Contactos." >	<i class= "icon-pencil"></i>&nbsp;Guardar Grupo</button>
 					</li>
 				</ul>
 			</div>
